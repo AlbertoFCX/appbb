@@ -10,10 +10,6 @@
     <script src="cordova.js" type="text/javascript"></script>
     <script src="jquery-mobile/js/jquery-1.9.1.min.js" type="text/javascript"></script>
     <script src="jquery-mobile/js/jquery.mobile-1.3.1.min.js" type="text/javascript"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
-
-    <script src="scripts/login.js" type="text/javascript"></script>
-    <script src="scripts/location.js" type="text/javascript"></script>
 </head>
 <body>
 
@@ -22,7 +18,7 @@
             <div data-role="header">
                 <h1>Breaking Bad</h1>
             </div>
-            <div data-role="content">
+            <div data-role="ui-content">
                 <div class="centrado">
                     <img src="images/BB.png" alt="Cali Rojas">
                 </div>
@@ -52,9 +48,9 @@
                     Breaking Bad fue una serie de televisión dramática estadounidense creada y producida por Vince Gilligan. Breaking Bad narra la historia de Walter White (Bryan Cranston), un profesor de química con problemas económicos a quien le diagnostican un cáncer de pulmón inoperable. Para pagar su tratamiento y asegurar el futuro económico de su familia comienza a cocinar y vender metanfetamina,4 junto con Jesse Pinkman (Aaron Paul), un antiguo alumno suyo. La serie, ambientada y producida en Albuquerque (Nuevo México), se caracteriza por poner a sus personajes en situaciones que aparentemente no tienen salida, lo que llevó a que su creador la describa como un western contemporáneo.2
 		    La serie se estrenó el 20 de enero de 2008 y es una producción de Sony Pictures Television. En Estados Unidos y Canadá se emitió por la cadena AMC.5 La temporada final se dividió en dos partes de ocho episodios cada una y se emitió en el transcurso de dos días; la primera mitad se estrenó a las 2:05 y concluyó a las 2:45, mientras que la segunda mitad se estrenó el 11 de agosto de 2013 y concluyó el 29 de septiembre del mismo año.6
                 </p>
-                <ul>
+                <ul data-role="listview" data-inset="true">
                     <li><a href="#WalterWhite" data-transition="flip">Walter White</a></li>
-                    <li><a href="#jesse" data-transition="flip">Jesse Pinkman</a></li>
+                    <li><a href="#Jesse" data-transition="flip">Jesse Pinkman</a></li>
                     <li><a href="#skyker" data-transition="flip">Skyler White</a></li>
                     <li><a href="#hank" data-transition="flip">Hank Schrader</a></li>
                     <li><a href="#saul" data-transition="flip">Saul Goodman</a></li>
@@ -66,194 +62,59 @@
                 </p>
             </div>
             <div data-role="footer">
-                <p class="centrado">Copyright &copy; 2013</p>
+                <p class="centrado">Breaking Bad 2014</p>
             </div>
         </div>
 	
 	<!-- Walter White -->
 
-	<div data-role="page" id="WalterWhite">
+<div data-role="page" id="WalterWhite">
         
-        <div data-role="content">
-                <div class="centrado">
-                    <img src="images/walter.png" alt="Cali Rojas">
-                </div>
-            <div data-role="header">
-                
-                <h1>WALTER WHITE</h1>
-	    	</div>
-     		<div data-role="content">
-         
-                <p class="centrado">
-                    <h2>Juventud</h2>
-						Walter estudió en el Instituto de Tecnología de California, donde destacó por ser un brillante químico. En 1985 colaboró en un proyecto de radiografía de protones que fue galardonado con un Premio Nobel. Tras finalizar los estudios, él y su gran amigo Elliott Schwartz, fundaron la empresa Gray Matter Technologies. El nombre de la misma, Materia Gris, es una ingeniosa idea que se les ocurrió fusionando los apellidos de ambos: White (blanco, en inglés) y Schwartz (negro, en alemán).
-						Durante aquella época, Walter tenía una relación con Gretchen, su ayudante de laboratorio. Sin embargo, un día rompe con ella y abandona súbitamente la empresa, vendiendo a Elliott todas sus acciones en la empresa por tan solo 5.000 dólares. Más adelante, Elliott y Gretchen se casarán, y conseguirán una gran fama y fortuna, gracias a Gray Matter y algunos de los proyectos antiguos de Walt, algo que marcará a este para siempre.
-		    		<h2>Madurez</h2>
-						Walt se instala en Albuquerque, Nuevo Mexico, y se casa con su actual esposa, Skyler. Con ella tendrá dos hijos, Walter Jr, un adolescente que padece las secuelas de una parálisis cerebral, y Holly, una niña recién nacida.
-						A sus 50 años, Walter tiene una desilusionante y aburrida vida. Es profesor de química en el instituto J.P. Wynne, donde trata de explicarle lo que para él es un apasionante mundo, a una serie de adolescentes totalmente faltos de interés. Como su sueldo no le llega para cubrir los gastos del próximo nacimiento de su hija, está pluriempleado, y tiene un humillante trabajo después de las clases en un lavadero de coches. En casa, tiene una aburrida vida, obedeciendo siempre a su controladora esposa Skyler. Otros miembros de su familia son sus cuñados, Marie, la hermana cleptómana de su mujer, y Hank, un agente de la DEA. También está su madre, aunque nunca llega a aparecer.
-                </p>   
-                
-				<p class="centrado">
-                    <a href="#biografia" data-role="button" data-icon="back" data-inline="true" data-transition="flow">Atr&aacute;s</a>
-                </p>
-            </div>
+	<div data-role="content">
+		<div data-role="header">
+			<h1>WALTER WHITE</h1>
+		</div>
+        <div class="centrado">
+			<img src="images/walter.png" alt="Cali Rojas">
+		</div>
+    </div>
+	<div data-role="ui-content">
+        <p>
+            Hola k ase
+        </p>
+    </div>
+	<div data-role="ui-content">    
+		<p class="centrado">
+			<a href="#biografia" data-role="button" data-icon="back" data-inline="true" data-transition="flow">Atr&aacute;s</a>
+		</p>
+	</div>
 </div>
-	<!-- Jesse Pinkman -->
+    
+    
+    <!-- Jesse Pinkman -->
 
-	<div data-role="page" id="jesse">
-            <div data-role="header">
-                <h1>JESSE PINKMAN</h1>
-	    </div>
-            <div data-role="content">
-         
-                <p>
-                    Jesse Pinkman Bruce nació en septiembre de 1984 en una familia de clase media alta en Albuquerque, Nuevo Mexico. En ese momento comienza la serie, que ha sido separado de sus padres debido a su consumo de drogas y estilo de vida. Después de haber sido obligado a abandonar la residencia de sus padres, Jesse fue a vivir con su tía Jenny, quien cuidó hasta su muerte por cáncer, después, se le permitió quedarse en su casa, cuya propiedad se redujo a los padres de Jesse. Jesse era un mal estudiante en la escuela secundaria, en gran parte debido a su falta de atención y la apatía. Walter White (Bryan Cranston), que Jesse casi siempre lo llama "Mr. White", fue su profesor de química, y lo suspendió de su clase. Walt le confiesa a Jesse que él "nunca esperó mucho" de él,1 aunque su madre (Tess Harper) recuerda que Walt "debe haber visto un cierto potencial de Jesse, que realmente trató de motivar. Era uno de los pocos maestros que le importaba".2 Pinkman más tarde cumple esa espectatíva, la producción de un producto por su cuenta que Walt a regañadientes admite es tan bueno como lo que produce el propio Walt y superior a la que fue producida por Gale Boetticher (David Costabile), que celebró un grado avanzado en química. En "Say My Name", Walter se refiere a sí mismo y Pinkman como "los dos mejores cocineros de metanfetamina en los Estados Unidos."
-                </p>   
-                
-				<p class="centrado">
-                    <a href="#biografia" data-role="button" data-icon="back"
-                    data-inline="true" data-transition="flow">Atr&aacute;s</a>
-                </p>
-            </div>
-</div>
-
-	<!-- Skyler White -->
-
-	<div data-role="page" id="skyler">
-            <div data-role="header">
-                <h1>SKYLER WHITE</h1>
-	    </div>
-            <div data-role="content">
-         
-                <p>
-                    Skyler White (de soltera Lambert) es la mujer de Walter White y madre de Walter White Jr. y Holly White. Skyler ha tenido múltiples trabajos o actividades para obtener dinero: escribiendo historias cortas, vendiendo objetos en eBay, trabajando como contable en Beneke Fabricators y ayudando a Walt con el local de lavado. Skyler quiere mucho a Walter, pero su matrimonio pasa a tener problemas debido a sus ausencias y su comportamiento extraño, lo cual acaba llevando a su separación.
-
-		Después, cuando Walt revela sus actividades en el negocio del tráfico de metanfetamina, ella trata de pedir el divorcio pero acaba haciéndose a la idea e incluso le ayuda con el lavado de su dinero ilícito. Según Walter va haciéndose cada vez más un duro criminal, ella pasa a quedarse asustada por su seguridad y la de los niños e intenta mantenerles lo más lejos posible de su padre.
-                </p>   
-                
-	<p class="centrado">
-                    <a href="#biografia" data-role="button" data-icon="back"
-                    data-inline="true" data-transition="flow">Atr&aacute;s</a>
-                </p>
-            </div>
-</div>
-
-
-	<!-- Hank Scharder -->
-
-	<div data-role="page" id="hank">
-            <div data-role="header">
-                <h1>HANK SCHRADER</h1>
-	    </div>
-            <div data-role="content">
-         
-                <p>
-                    	Henry R. "Hank" Schrader es el marido de Marie Schrader (hermana de Skyler White) y agente especial a cargo de las oficinas de la DEA en Albuquerque. Un hombre enérgico y bullicioso, Hank es además cuñado de Walter White.
-
-			A pesar de que es un agente extremadamente competente y que realmente se preocupa por Marie, Walter, Skyler y Walter Jr., su estilo y su machismo a menudo acaban aislándole del peligro al que se expone diariamente.
-
-			La investigación de Hank acerca del traficante de metanfetamina conocido como "Heisenberg" — fuente de un cristal azul misterioso y de alta calidad — acaba llevándole a descubrir el imperio de drogas de Gus y a acabar con Gustavo Fring. No obstante, Hank desconoce que "Heisenberg" es el alter-ego de su propio cuñado, Walter. Cuando relaciona a Walter con Gale Boetticher, conocido proveedor de cristal azul para el negocio de Fring, Hank descubre el secreto de Walt y a partir de entonces dedica todos sus esfuerzos en llevarle a la justicia de una vez por todas. Para ello, incluso llega a colaborar con Jesse Pinkman (ex-compañero de Walt en las actividades ilegales) pese al turbulento historial que tiene con él.
-                </p>   
-                
-	<p class="centrado">
-                    <a href="#biografia" data-role="button" data-icon="back"
-                    data-inline="true" data-transition="flow">Atr&aacute;s</a>
-                </p>
-            </div>
-        </div>
-
-	<!-- Saul Goodman -->
-
-	<div data-role="page" id="saul">
-            <div data-role="header">
-                <h1>SAUL GOODMAN</h1>
-	    </div>
-            <div data-role="content">
-         
-                <p>
-                    	Saul Goodman es uno de los personajes principales de Breaking Bad y el protagonista del spin-off Better Call Saul. Saul es un abogado criminal de Albuquerque conocido en la ciudad por sus peculiares anuncios televisivos que se emiten a altas horas de la noche, en el que menciona su lema, "¡Mejor llama a Saul!".
-
-Su verdadero apellido es McGill, siendo Goodman algo inventado para atraer a más clientes, ya que Saul Goodman se pronuncia como "it's all good man" (está todo bien, hombre). A pesar de su turbia apariencia, Saul sin duda es un hombre muy competente en sus asuntos criminales, eficiente a la hora de descubrir lagunas legales en casos y capaz de negociar buenos tratos en favor de sus clientes.
-
-Tiene una gran familiaridad con el mundo criminal y conexiones con algunos de los más influyentes distribuidores, como Gus Fring. Además, tiene contratados los servicios de un investigador privado veterano llamado Mike, que respeta a Saul simplemente por lo que es y a menudo ejecuta órdenes ilegales para Saul y Gus como limpiar escenas del crimen o espiar a personas.
-                </p>   
-                
-	<p class="centrado">
-                    <a href="#info" data-role="button" data-icon="back"
-                    data-inline="true" data-transition="flow">Atr&aacute;s</a>
-                </p>
-            </div>
-        </div>
-
-
-	<!-- Gus-->
-
-	<div data-role="page" id="gus">
-        <div data-role="content">
-                <div class="centrado">
-                    <img src="images/gus.png" alt="Cali Rojas">
-                </div>
+<div data-role="page" id="Jesse">
         
-            <div data-role="header">
-                <h1>GUSTAVO FRING</h1>
-	    </div>
-            <div data-role="content">
-         
-                <p>
-                    	Gustavo "Gus" Fring was a Chilean-born Albuquerque restaurateur, business magnate, and philanthropist. He was the respected proprietor of Los Pollos Hermanos, a highly successful fried chicken restaurant chain. He was also a public booster for the local DEA office. However, despite outward appearances, Gus was a major drug kingpin initially affiliated with the Mexican Juárez Cartel, secretly using his restaurant as a legitimate cover for methamphetamine distribution throughout the American southwest. Like Walter White, Gus was a criminal who "hid in plain sight", using his anti-drug philanthropy to conceal his true nature and build his illicit drug empire step by step.
-
-			When Walt seeks a buyer for his chemically pure meth, he is put in contact with Gus. Walt manages to persuade Gus into purchasing thirty-eight pounds of his meth for $1.2 million; after the product yields good returns, Gus offers Walt $3 million for three months of his time. Gus' hiring and protection of Walt puts him at odds with the cartel's leadership. Despite Gus' initial protection of Walt, the collaboration between the two men becomes continuously strained, and Gus becomes a formidable adversary of Walt's and the main antagonist of Season 4. Gustavo was killed in the Casa Tranquila explosion.
-                </p>   
-                
-	<p class="centrado">
-                    <a href="#info" data-role="button" data-icon="back"
-                    data-inline="true" data-transition="flow">Atr&aacute;s</a>
-                </p>
-            </div>
-        </div>
-
-	<!-- Mike-->
-
-	<div data-role="page" id="mike">
-            <div data-role="header">
-                <h1>MIKE EHRMANTRAUT/h1>
-	    	</div>
-            <div data-role="content">
-         
-                <p>
-                    	Michael "Mike" Ehrmantraut es el principal secuaz de Gus Fring en su imperio de drogas. También es socio de Saul Goodman, para quien trabaja en diversas ocasiones como investigador privado y para solventar diversos problemas, el hombre al que recurre en situaciones complejas. Con el fin del imperio de Gus, acaba pasando a trabajar con Walter y Jesse en un nuevo negocio. Es un hombre de familia que hace lo que hace por su nieta, Kaylee.
-
-Mike es un ex-policía de barrio y un verdadero profesional que dispone de un conocimiento total de pistas forenses, equipamiento de vigilancia y procedimientos policiales. Además, está completamente entrenado para ser frío en diversas situaciones de combate, en las que acaba utilizando ciencia y buenas estrategias para acabar con un gran número de enemigos sin causar alboroto.
-                </p>   
-                
-	<p class="centrado">
-                    <a href="#info" data-role="button" data-icon="back"
-                    data-inline="true" data-transition="flow">Atr&aacute;s</a>
-                </p>
-            </div>
-        </div>
-
-
-
-
-    <!-- pagina de contacto -->
-        <div data-role="page" id="contacto">
-            <div data-role="header">
-                <h1>Contacto</h1>
-            </div>
-            <div data-role="content">
-                <p>
-                    Si desea contactarme env&iacute;eme un mensaje a la direcci&oacute;n
-                    electr&oacute;nica <strong>juancarlosr (arroba) msn (punto) com</strong>.
-                </p>
-                <p class="centrado">
-                    <a href="#info" data-role="button" data-icon="back"
-                    data-inline="true" data-transition="turn">Atr&aacute;s</a>
-                </p>
-            </div>
-            <div data-role="footer">
-                <p class="centrado">Copyright &copy; 2013</p>
-            </div>
-        </div>  
+	<div data-role="content">
+		<div data-role="header">
+			<h1>JESSE PINKMAN</h1>
+		</div>
+        <div class="centrado">
+			<img src="images/gus.png" alt="Cali Rojas">
+		</div>
+    </div>
+	<div data-role="ui-content">
+        <p>
+            Hola k ase
+        </p>
+    </div>
+	<div data-role="ui-content">    
+		<p class="centrado">
+			<a href="#biografia" data-role="button" data-icon="back" data-inline="true" data-transition="flow">Atr&aacute;s</a>
+		</p>
+	</div>
+</div>
+ 
 </body>
 </html>
+

@@ -1,3 +1,9 @@
+/*** Sticky Menu ***/
+#biografia {
+    position:absolute;
+}
+
+
 .ui-footer {
     text-align: center;
     padding: 0.3em;

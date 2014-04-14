@@ -1,166 +1,9 @@
 <!DOCTYPE html> 
 <html>
 <head>
-   <meta charset="UTF-8" />
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    	<meta name="description" content="">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<link href="jquery-mobile/styles/jquery.mobile-1.3.1.min.css" rel="stylesheet" />
-    	<link href="styles/main.css" rel="stylesheet" />
-
-    	<script src="cordova.js" type="text/javascript"></script>
-    	<script src="jquery-mobile/js/jquery-1.9.1.min.js" type="text/javascript"></script>
-    	<script src="jquery-mobile/js/jquery.mobile-1.3.1.min.js" type="text/javascript"></script>
-    
-
-    <style type="text/css">
-    	* {
-		    margin: 0;
-		    padding: 0;
-		}
-		html {
-		    font-family: Arial, Helvetica;
-		    font-size: 12px;
-		    color: #eee;
-		}
-		body {
-		    background-color: #222;    
-		}
-		h1 {
-		    font-family: Helvetica, Arial;
-		    font-size: 40px;
-		    font-weight: bold;
-		    margin: 10px 0 10px 0;
-		}
-		h1 a {
-		    text-decoration: none;
-		    color: #8cbf26;
-		}
-		h1 a:hover {
-		    text-decoration: underline;
-		}
-		p {
-		    margin-bottom: 15px;
-		    text-align: justify;
-		}
-		header {
-		    color: yellow;
-		    max-width: 960px;
-		    margin: auto;
-		    margin-top: 20px; 
-		}
-		.content, footer {
-		    max-width: 960px;
-		    margin: auto;
-		}
-
-		/*** Sticky Menu ***/
-		nav {
-		    background-color: #1ba1e2;
-		    height: 35px;
-
-		    
-		}
-		nav ul {
-		    width: 960px;
-		    margin: auto;
-		}
-		nav ul li {
-		    line-height: 35px;
-		    display: inline-block;
-		    padding-right: 50px;
-		}
-		nav ul li a {
-		    text-decoration: none;
-		    color: #fff;
-		    font-weight: bold;
-		}
-		nav ul li a:hover {
-		    text-decoration: underline;
-		}
-		.fixed {
-		    position:fixed;
-		    top: 0;
-		    left: 0;
-		    width: 100%;
-		}
-
-    </style>
-
-    <title></title>
-
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-</head>
-<body>
-
-    <div class="container">
-
-    <header> 
-        <p> Esta es la cabecera: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus facilisis velit, nec faucibus nunc lobortis eget. Etiam quis pulvinar neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus facilisis velit, nec faucibus nunc lobortis eget. Etiam quis pulvinar neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus facilisis velit, nec faucibus nunc lobortis eget. Etiam quis pulvinar neque.</p>
-    </header>  
-
-    <nav>
-        <ul>
-            <li><a href="#">Opción 1</a></li>
-            <li><a href="#">Opción 2</a></li>
-            <li><a href="#">Opción 3</a></li>
-            <li><a href="#">Opción 4</a></li>
-            <li><a href="#">Opción 5</a></li>
-            <li><a href="#">Opción 6</a></li>
-        </ul>
-    </nav>    
-
-    <div class="content">  
-
-        <h1>No olvides visitar <a href="http://tuts.widget-pc.com">Widget 101</a></h1>    
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus facilisis velit, nec faucibus nunc lobortis eget. Etiam quis pulvinar neque. Nam sed ante pharetra arcu rutrum sagittis et sit amet metus. Aenean vel sapien ut odio vestibulum viverra vel vel nisl. Sed pretium ligula non justo convallis ac tincidunt eros suscipit. Mauris dignissim ultricies purus non pulvinar. Suspendisse id egestas sem. Quisque tempus elit non sem facilisis lobortis. Vestibulum massa tellus, elementum in viverra ac, pharetra eget ligula. Aenean vulputate condimentum libero, sed tincidunt neque mollis quis. Duis vitae ante sed lorem scelerisque eleifend. Etiam pretium blandit nisi sit amet laoreet.</p>
-
-        <h1>Cómo hacer un Sticky Menu</h1>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus facilisis velit, nec faucibus nunc lobortis eget. Etiam quis pulvinar neque. Nam sed ante pharetra arcu rutrum sagittis et sit amet metus. Aenean vel sapien ut odio vestibulum viverra vel vel nisl. Sed pretium ligula non justo convallis ac tincidunt eros suscipit. Mauris dignissim ultricies purus non pulvinar. Suspendisse id egestas sem. Quisque tempus elit non sem facilisis lobortis. Vestibulum massa tellus, elementum in viverra ac, pharetra eget ligula. Aenean vulputate condimentum libero, sed tincidunt neque mollis quis. Duis vitae ante sed lorem scelerisque eleifend. Etiam pretium blandit nisi sit amet laoreet.</p>
-
-        <h1>Esto es contenido de relleno</h1>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus facilisis velit, nec faucibus nunc lobortis eget. Etiam quis pulvinar neque. Nam sed ante pharetra arcu rutrum sagittis et sit amet metus. Aenean vel sapien ut odio vestibulum viverra vel vel nisl. Sed pretium ligula non justo convallis ac tincidunt eros suscipit. Mauris dignissim ultricies purus non pulvinar. Suspendisse id egestas sem. Quisque tempus elit non sem facilisis lobortis. Vestibulum massa tellus, elementum in viverra ac, pharetra eget ligula. Aenean vulputate condimentum libero, sed tincidunt neque mollis quis. Duis vitae ante sed lorem scelerisque eleifend. Etiam pretium blandit nisi sit amet laoreet.</p>
-        
-        <p>Aliquam sed euismod mauris. In hendrerit, erat dignissim tristique iaculis, lacus lacus imperdiet nisi, non auctor leo nibh vitae erat. Nulla molestie, velit et sollicitudin dapibus, lectus orci porta lacus, id iaculis justo sem non odio. Maecenas consectetur pharetra nisl, vitae porta nibh varius sed. In pharetra, sem a vulputate pellentesque, arcu sem varius enim, at laoreet justo dui dictum dolor. Aliquam consequat feugiat est, eu malesuada massa consequat eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus sit amet vehicula sem. Praesent augue enim, ullamcorper id convallis ultrices, egestas et nunc.</p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus facilisis velit, nec faucibus nunc lobortis eget. Etiam quis pulvinar neque. Nam sed ante pharetra arcu rutrum sagittis et sit amet metus. Aenean vel sapien ut odio vestibulum viverra vel vel nisl. Sed pretium ligula non justo convallis ac tincidunt eros suscipit. Mauris dignissim ultricies purus non pulvinar. Suspendisse id egestas sem. Quisque tempus elit non sem facilisis lobortis. Vestibulum massa tellus, elementum in viverra ac, pharetra eget ligula. Aenean vulputate condimentum libero, sed tincidunt neque mollis quis. Duis vitae ante sed lorem scelerisque eleifend. Etiam pretium blandit nisi sit amet laoreet.</p>
-        
-        <p>Aliquam sed euismod mauris. In hendrerit, erat dignissim tristique iaculis, lacus lacus imperdiet nisi, non auctor leo nibh vitae erat. Nulla molestie, velit et sollicitudin dapibus, lectus orci porta lacus, id iaculis justo sem non odio. Maecenas consectetur pharetra nisl, vitae porta nibh varius sed. In pharetra, sem a vulputate pellentesque, arcu sem varius enim, at laoreet justo dui dictum dolor. Aliquam consequat feugiat est, eu malesuada massa consequat eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus sit amet vehicula sem. Praesent augue enim, ullamcorper id convallis ultrices, egestas et nunc.</p>
-
-        <h1>Esto es un título</h1>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus facilisis velit, nec faucibus nunc lobortis eget. Etiam quis pulvinar neque. Nam sed ante pharetra arcu rutrum sagittis et sit amet metus. Aenean vel sapien ut odio vestibulum viverra vel vel nisl. Sed pretium ligula non justo convallis ac tincidunt eros suscipit. Mauris dignissim ultricies purus non pulvinar. Suspendisse id egestas sem. Quisque tempus elit non sem facilisis lobortis. Vestibulum massa tellus, elementum in viverra ac, pharetra eget ligula. Aenean vulputate condimentum libero, sed tincidunt neque mollis quis. Duis vitae ante sed lorem scelerisque eleifend. Etiam pretium blandit nisi sit amet laoreet.</p>
-        
-        <p>Aliquam sed euismod mauris. In hendrerit, erat dignissim tristique iaculis, lacus lacus imperdiet nisi, non auctor leo nibh vitae erat. Nulla molestie, velit et sollicitudin dapibus, lectus orci porta lacus, id iaculis justo sem non odio. Maecenas consectetur pharetra nisl, vitae porta nibh varius sed. In pharetra, sem a vulputate pellentesque, arcu sem varius enim, at laoreet justo dui dictum dolor. Aliquam consequat feugiat est, eu malesuada massa consequat eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus sit amet vehicula sem. Praesent augue enim, ullamcorper id convallis ultrices, egestas et nunc.</p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus facilisis velit, nec faucibus nunc lobortis eget. Etiam quis pulvinar neque. Nam sed ante pharetra arcu rutrum sagittis et sit amet metus. Aenean vel sapien ut odio vestibulum viverra vel vel nisl. Sed pretium ligula non justo convallis ac tincidunt eros suscipit. Mauris dignissim ultricies purus non pulvinar. Suspendisse id egestas sem. Quisque tempus elit non sem facilisis lobortis. Vestibulum massa tellus, elementum in viverra ac, pharetra eget ligula. Aenean vulputate condimentum libero, sed tincidunt neque mollis quis. Duis vitae ante sed lorem scelerisque eleifend. Etiam pretium blandit nisi sit amet laoreet.</p>
-        
-        <p>Aliquam sed euismod mauris. In hendrerit, erat dignissim tristique iaculis, lacus lacus imperdiet nisi, non auctor leo nibh vitae erat. Nulla molestie, velit et sollicitudin dapibus, lectus orci porta lacus, id iaculis justo sem non odio. Maecenas consectetur pharetra nisl, vitae porta nibh varius sed. In pharetra, sem a vulputate pellentesque, arcu sem varius enim, at laoreet justo dui dictum dolor. Aliquam consequat feugiat est, eu malesuada massa consequat eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus sit amet vehicula sem. Praesent augue enim, ullamcorper id convallis ultrices, egestas et nunc.</p>
-
-        <h1>Este es otro título</h1>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus facilisis velit, nec faucibus nunc lobortis eget. Etiam quis pulvinar neque. Nam sed ante pharetra arcu rutrum sagittis et sit amet metus. Aenean vel sapien ut odio vestibulum viverra vel vel nisl. Sed pretium ligula non justo convallis ac tincidunt eros suscipit. Mauris dignissim ultricies purus non pulvinar. Suspendisse id egestas sem. Quisque tempus elit non sem facilisis lobortis. Vestibulum massa tellus, elementum in viverra ac, pharetra eget ligula. Aenean vulputate condimentum libero, sed tincidunt neque mollis quis. Duis vitae ante sed lorem scelerisque eleifend. Etiam pretium blandit nisi sit amet laoreet.</p>                
-        
-        <p>Aliquam sed euismod mauris. In hendrerit, erat dignissim tristique iaculis, lacus lacus imperdiet nisi, non auctor leo nibh vitae erat. Nulla molestie, velit et sollicitudin dapibus, lectus orci porta lacus, id iaculis justo sem non odio. Maecenas consectetur pharetra nisl, vitae porta nibh varius sed. In pharetra, sem a vulputate pellentesque, arcu sem varius enim, at laoreet justo dui dictum dolor. Aliquam consequat feugiat est, eu malesuada massa consequat eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus sit amet vehicula sem. Praesent augue enim, ullamcorper id convallis ultrices, egestas et nunc.</p>
-
-    </div>  
-
-    <footer> 
-        <h1>Este es es el Footer</h1>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus facilisis velit, nec faucibus nunc lobortis eget. Etiam quis pulvinar neque. Nam sed ante pharetra arcu rutrum sagittis et sit amet metus. Aenean vel sapien ut odio vestibulum viverra vel vel nisl. Sed pretium ligula non justo convallis ac tincidunt eros suscipit. Mauris dignissim ultricies purus non pulvinar. Suspendisse id egestas sem. Quisque tempus elit non sem facilisis lobortis. Vestibulum massa tellus, elementum in viverra ac, pharetra eget ligula. Aenean vulputate condimentum libero, sed tincidunt neque mollis quis. Duis vitae ante sed lorem scelerisque eleifend. Etiam pretium blandit nisi sit amet laoreet.</p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus facilisis velit, nec faucibus nunc lobortis eget. Etiam quis pulvinar neque. Nam sed ante pharetra arcu rutrum sagittis et sit amet metus. Aenean vel sapien ut odio vestibulum viverra vel vel nisl. Sed pretium ligula non justo convallis ac tincidunt eros suscipit. Mauris dignissim ultricies purus non pulvinar. Suspendisse id egestas sem. Quisque tempus elit non sem facilisis lobortis. Vestibulum massa tellus, elementum in viverra ac, pharetra eget ligula. Aenean vulputate condimentum libero, sed tincidunt neque mollis quis. Duis vitae ante sed lorem scelerisque eleifend. Etiam pretium blandit nisi sit amet laoreet.</p>
-            
-    </footer>  
-
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="cordova.js" type="text/javascript"></script>
+    <script src="jquery-mobile/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="jquery-mobile/js/jquery.mobile-1.3.1.min.js" type="text/javascript"></script> 
     <script type="text/javascript">
     	// Llamado cuando se cargue la página
 		posicionarMenu();
@@ -182,8 +25,52 @@
 		    }
 		}
     </script>
+   <meta charset="UTF-8" />
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    	<meta name="description" content="">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link href="jquery-mobile/styles/jquery.mobile-1.3.1.min.css" rel="stylesheet" />
+    	<link href="styles/main.css" rel="stylesheet" />
 
-</div>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+ 
+
+    <div data-role="page" id="biografia">
+           
+        	<div data-role="header">
+				
+                    <h1>BIOGRAFÍA</h1>
+					<a href="#info" data-role="button" data-icon="back" data-inline="true" data-transition="flow">Atr&aacute;s</a>
+            	
+			</div>
+             
+            
+            <div data-role="content">
+                <p>
+                    Breaking Bad fue una serie de televisión dramática estadounidense creada y producida por Vince Gilligan. Breaking Bad narra la historia de Walter White (Bryan Cranston), un profesor de química con problemas económicos a quien le diagnostican un cáncer de pulmón inoperable. Para pagar su tratamiento y asegurar el futuro económico de su familia comienza a cocinar y vender metanfetamina,4 junto con Jesse Pinkman (Aaron Paul), un antiguo alumno suyo. La serie, ambientada y producida en Albuquerque (Nuevo México), se caracteriza por poner a sus personajes en situaciones que aparentemente no tienen salida, lo que llevó a que su creador la describa como un western contemporáneo.2
+		    La serie se estrenó el 20 de enero de 2008 y es una producción de Sony Pictures Television. En Estados Unidos y Canadá se emitió por la cadena AMC.5 La temporada final se dividió en dos partes de ocho episodios cada una y se emitió en el transcurso de dos días; la primera mitad se estrenó a las 2:05 y concluyó a las 2:45, mientras que la segunda mitad se estrenó el 11 de agosto de 2013 y concluyó el 29 de septiembre del mismo año.6
+                </p>
+                <ul data-role="listview" data-inset="true">
+                    <li><a href="#WalterWhite" data-transition="flip">Walter White</a></li>
+                    <li><a href="#Jesse" data-transition="flip">Jesse Pinkman</a></li>
+                    <li><a href="#skyler" data-transition="flip">Skyler White</a></li>
+                    <li><a href="#hank" data-transition="flip">Hank Schrader</a></li>
+                    <li><a href="#saul" data-transition="flip">Saul Goodman</a></li>
+                    <li><a href="#gus" data-transition="flip">Gustavo "Gus" Fring</a></li>
+                    <li><a href="#mike" data-transition="flip">Michael "Mike" Ehrmantraut</a></li>
+                </ul>
+               
+            </div>
+            <div data-role="footer">
+                <p class="centrado">Breaking Bad 2014</p>
+            </div>
+        </div>
+ 
 
     
 </body>

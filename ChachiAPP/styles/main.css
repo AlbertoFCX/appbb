@@ -1,4 +1,11 @@
-
+p {
+    text-align: center;
+}
+.centrado > img {
+    margin-left:25%;
+    width:50%;
+    height:50%;
+}
 /* MAP STYLES*/
 #page-location-content {
     position: absolute;

@@ -1,10 +1,113 @@
-p {
-    text-align: center;
-}
+        body {
+            font: normal 12px"Lucida Grande", Verdana, Helvetica, Arial, Sans-serif;
+        }
+        p {
+            margin: 5px 0;
+        }
+        #contenedor {
+            background-color: #FFC;
+            margin: 25px;
+            padding: 15px;
+            text-align: center;
+            border: black solid 1px;
+        }
+        .numero {
+            display: inline;
+            float: left;
+            color: white;
+            width: 30px;
+            margin-left: 10%;
+            padding: 3px;
+            background-color: #C00;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 20px;
+            font-family: Tahoma, Verdana, Helvetica, Arial, "sans-serif";
+        }
+        .pregunta {
+            margin: 0 10%;
+            border-top: #C00 solid 10px;
+            border-right: #C00 solid 1px;
+            border-bottom: #C00 solid 1px;
+            border-left: #C00 solid 10px;
+            padding: 0 10px 2px 35px;
+            background-color: #F6D1A7;
+            text-align: left;
+        }
+        ol {
+            margin: 0 0 5px 20px;
+            border-left: #E88B6F solid 10px;
+            border-top: #E88B6F solid 1px;
+            border-right: #E88B6F solid 1px;
+            border-bottom: #E88B6F solid 1px;
+            list-style-type: lower-alpha;
+            background-color: #FAE8B9;
+        }
+        .mal {
+            margin: 0 0 0 20px;
+            font: bold 16px monaco, courier, verdana, helvetica, arial, sans-serif;
+            color: red;
+        }
+        .bien {
+            margin: 0 0 0 20px;
+            font: bold 16px monaco, courier, verdana, helvetica, arial, sans-serif;
+            color: green;
+        }
+        #borrarimprimir {
+            text-align: center;
+            margin: 10px auto;
+            width: 90%;
+            padding: 10px;
+            background-color: #F6D1A7;
+            border-left: #C00 solid 1px;
+            border-top: #C00 solid 1px;
+            border-right: #C00 solid 10px;
+            border-bottom: #C00 solid 10px;
+        }
+        .notas {
+            text-align: center;
+            font: bold 16px monaco, courier, verdana, helvetica, arial, sans-serif;
+            color: black;
+        }
 .centrado > img {
     margin-left:25%;
     width:50%;
     height:50%;
+}
+/*TEST*/
+#cuestionario {
+    padding:10px;
+    margin:0px;
+    list-style:none;
+}
+#cuestionario dd {
+    display:block;
+    height:18px;
+    text-decoration:none;
+    color:#666666 !important;
+    padding:1px 5px 1px 5px;
+    border:1px solid #ffffff;
+}
+#cuestionario dd:hover {
+    border:1px solid #e53500;
+    text-decoration:none;
+    cursor:pointer;
+}
+.activo{
+    background:red;
+    font-weight:bold;
+    color:#fff;
+}
+#next{ 
+    width:100px; 
+    border:solid 1px #CCC; 
+    text-align:center; 
+    display:none;
+}
+#next:hover{ 
+    background:#009; 
+    color:#FFF; 
+    cursor:pointer;
 }
 /* MAP STYLES*/
 #page-location-content {

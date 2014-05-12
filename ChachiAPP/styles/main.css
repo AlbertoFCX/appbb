@@ -1,8 +1,46 @@
+#button {
+    width:50%;
+    height:20%;
+    margin-left:25%;
+}
+#button > a {
+    text-decoration: none;
+}
+#text {
+  font: normal 12px "Lucida Grande",Verdana,Helvetica,Arial,Sans - serif; 
+  color:white;
+  text-align:center;
+    
+}
+.inicio {
+    margin-left:25%;
+    width:50%;
+    height:20%;
+    color:blue;
+    
+}
+.inicio > li {
+    color:green;
+}
+.ui-page, .ui-body-c, .ui-page-active, .ui-overlay-c, .ui-mobile-viewport
+{
+    background: transparent !important;
+}
+
+body, .ui-overlay-c
+{
+   	background: url('images/Breaking Bad Fondo.jpg') !important;
+    background-repeat:repeat-y !important;
+    background-position:center center !important;
+    background-attachment:scroll !important;
+    background-size:100% 100% !important;
+}
 .head {
     color:green;
 }
 .texto {
-  font: normal 12px "Lucida Grande",Verdana,Helvetica,Arial,Sans - serif;  
+  font: normal 12px "Lucida Grande",Verdana,Helvetica,Arial,Sans - serif; 
+  color:white;
 }
 body {
     font: normal 12px "Lucida Grande",Verdana,Helvetica,Arial,Sans - serif;
@@ -10,10 +48,7 @@ body {
 p {
     margin: 5px 0;
 }
-.centrado {
-    margin: 5px 0;
-    text-align: center;
-}
+
 .centrado > img {
     margin-left: 25% ;
     width: 50% ;

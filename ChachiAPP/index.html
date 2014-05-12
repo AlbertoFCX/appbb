@@ -1,46 +1,60 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        
-    	<meta charset="UTF-8" />
-    	<title>Hello, World</title>
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    	<meta name="description" content="">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<link href="jquery-mobile/styles/jquery.mobile-1.3.1.min.css" rel="stylesheet" />
-    	<link href="styles/main.css" rel="stylesheet" />
 
-    	<script src="cordova.js" type="text/javascript"></script>
-    	<script src="jquery-mobile/js/jquery-1.9.1.min.js" type="text/javascript"></script>
-    	<script src="jquery-mobile/js/jquery.mobile-1.3.1.min.js" type="text/javascript"></script>
-        <title>INICIO</title>
-    </head>
-    <body>
-            
-        <div data-role="page" id="info">
-            <div data-role="header" data-theme="e">
-                <h1>Breaking Bad</h1>
-            </div>
-            <div data-role="ui-content">
-                <div class="centrado">
-                    <img src="images/BB.png" alt="Cali Rojas">
-                </div>
-                <p class="centrado">
-                    La primera APP móvil de tu serie favorita. <strong>Breaking bad</strong> en estado puro. Disfruta de la <em>Meta Azul</em> y de <em>Los Pollos Hermanos</em>. 
-		    		Conoce a los personajes y curiosidades de la serie.
-                </p>
-                <p>
-                    Escribo en <a href="http://albertofcx.github.io">Fuera de ConteXto</a>.
-                </p>
-                <ul data-role="listview" data-inset="true">
-                    <li><a href="biografia.html" data-transition="flip">Biografía</a></li>
-                    <li><a href="test.html" data-transition="slide">¿Cuánto sabes sobre Breaking Bad?</a></li>
-                </ul>
-            </div>
-            <div data-role="footer">
-                <p class="centrado">BreakingBad 2014</p>
-            </div>
-        </div>
-    </body>
+<head>
+
+    <meta charset="UTF-8" />
+    <title>Hello, World</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="jquery-mobile/styles/jquery.mobile-1.3.1.min.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" />
+
+    <script src="cordova.js" type="text/javascript"></script>
+    <script src="jquery-mobile/js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="jquery-mobile/js/jquery.mobile-1.3.1.min.js" type="text/javascript"></script>
+    <title>INICIO</title>
+</head>
+
+<body>
+
+    <div data-role="page" id="info">
+        <div data-role="header" class="head">
+
+            <h1>Breaking Bad</h1>
+
+        </div>
+
+        <div data-role="content">
+
+            <div class="centrado">
+                <img src="images/BB.png" alt="Cali Rojas">                
+            </div>
+
+            <p class="centrado">
+                La primera APP móvil de tu serie favorita. <strong>Breaking bad</strong> en estado puro. Disfruta de la <em>Meta Azul</em> y de <em>Los Pollos Hermanos</em>. Conoce a los personajes y curiosidades de la serie.                 
+            </p>
+
+            <p>
+                Escribo en <a href="http://albertofcx.github.io">Fuera de ConteXto</a>.                 
+            </p>
+
+            <ul data-role="listview" data-inset="true">
+
+                <li><a href="biografia.html" data-transition="flip">Biografía</a>
+                </li>
+
+                <li><a href="test.html" data-transition="slide">¿Cuánto sabes sobre Breaking Bad?</a>
+                </li>
+            </ul>
+        </div>
+
+        <div data-role="footer" >
+            <p class="centrado">BreakingBad 2014</p>
+        </div>
+    </div>
+</body>
+
 </html>

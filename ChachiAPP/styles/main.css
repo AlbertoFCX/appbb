@@ -1,10 +1,8 @@
+
 #button {
     width:50%;
     height:20%;
-    margin-left:25%;
-}
-#button > a {
-    text-decoration: none;
+    margin-left:23%;
 }
 #text {
   font: normal 12px "Lucida Grande",Verdana,Helvetica,Arial,Sans - serif; 
@@ -31,8 +29,8 @@ body, .ui-overlay-c
 {
    	background: url('images/Breaking Bad Fondo.jpg') !important;
     background-repeat:repeat-y !important;
-    background-position:center center !important;
-    background-attachment:scroll !important;
+    background-position:center center !important; 
+    background-attachment:fixed !important;
     background-size:100% 100% !important;
 }
 .head {

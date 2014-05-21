@@ -1,12 +1,11 @@
- <meta charset="UTF-8" />
 {
 	"introduction":"This quiz tests you about foo and goo", 
 	"questions":[
-		{"question":"The meta of Walter is...", 
-		 "answers":["White","Blue","Red","Green"],
+		{"question":"Why is the sky blue?", 
+		 "answers":["Unicorns","Fairies","Boring Science","Kittens"],
 		 "correct":2},
-		{"question":"Better Call...", 
-		 "answers":["walter","Mike","Saul","Skyler"],
+		{"question":"Why are kittens so cute?", 
+		 "answers":["Magic","Fur","Meow","More Kittens!"],
 		 "correct":3}
 	]
 }

@@ -17,14 +17,11 @@
     color:blue;
     
 }
-.inicio > li {
-    color:green;
-}
+
 .ui-page, .ui-body-c, .ui-page-active, .ui-overlay-c, .ui-mobile-viewport
 {
     background: transparent !important;
 }
-
 body, .ui-overlay-c
 {
    	background: url('images/Breaking Bad Fondo.jpg') !important;
@@ -33,6 +30,7 @@ body, .ui-overlay-c
     background-attachment:fixed !important;
     background-size:100% 100% !important;
 }
+
 .head {
     color:green;
 }
@@ -48,9 +46,9 @@ p {
 }
 
 .centrado > img {
-    margin-left: 25% ;
-    width: 50% ;
-    height: 50% ;
+    margin-left: 20% ;
+    width: 60% ;
+    height: 60% ;
 }
 #titulete{
     text-align:center
